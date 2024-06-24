@@ -1,0 +1,80 @@
+:root {
+  --body-color: #82ff59;
+}
+
+* {
+  background-color: black;
+  font-family: sans-serif, Arial, Impact;
+}
+
+header {
+  position: sticky;
+  z-index: 999;
+}
+
+body {
+  position: relative;
+}
+
+section,
+h1,
+footer,
+aside {
+  border: 1px var(--body-color) dotted;
+}
+
+body:not(button) {
+  color: var(--body-color);
+}
+
+h1 {
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  font-size: 0.85em;
+}
+
+.content {
+  padding-left: 20px;
+  padding-bottom: 15px;
+  line-height: 2px;
+}
+
+.sidebar {
+  box-sizing: border-box;
+  width: 10%;
+  height: 200px;
+  position: relative;
+  left: 88%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.features {
+  box-sizing: border-box;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  text-align: center;
+  line-height: 3px;
+}
+
+.feature button {
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 170px;
+  text-align: center;
+  position: sticky;
+  z-index: 998;
+}
+
+button {
+  background-color: white;
+  color: black;
+}
